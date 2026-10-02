@@ -1,11 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>João Victor Ferrasso Ribeiro | Estudante de TI</title>
+
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">&lt;JVFR/&gt;</div>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+            </ul>
+
+            <button class="menu-button" id="menuButton">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <p class="welcome">Olá, eu sou</p>
+
+                <h1>
+                    João Victor<br>
+                    <span>Ferrasso Ribeiro</span>
+                </h1>
+
+                <p class="description">
+                    Estudante de Tecnologia da Informação, apaixonado por
+                    tecnologia e interessado em transformar ideias em projetos.
+                </p>
+
+                <div class="buttons">
+                    <a href="#sobre" class="btn primary">
+                        Conheça-me
+                    </a>
+
+                    <a href="#objetivos" class="btn secondary">
+                        Meus objetivos
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-card">
+
+                <div class="card-glow"></div>
+
+                <div class="code-card">
+
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="purple">const</span> estudante = {</p>
+
+                        <p class="indent">
+                            nome:
+                            <span class="blue">"João Victor"</span>,
+                        </p>
+
+                        <p class="indent">
+                            idade:
+                            <span class="blue">16</span>,
+                        </p>
+
+                        <p class="indent">
+                            área:
+                            <span class="blue">"Tecnologia"</span>,
+                        </p>
+
+                        <p class="indent">
+                            instituição:
+                            <span class="blue">"SENAI"</span>
+                        </p>
+
+                        <p>};</p>
+
+                        <p class="cursor">_</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section class="about section" id="sobre">
+
+            <div class="section-title">
+                <span>01.</span>
+                <h2>Sobre mim</h2>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        Meu nome é <strong>João Victor Ferrasso Ribeiro</strong>,
+                        tenho 16 anos e sou estudante de Tecnologia da Informação
+                        no <strong>SENAI</strong>.
+                    </p>
+
+                    <p>
+                        Estou construindo minha trajetória na área de tecnologia,
+                        buscando aprender cada vez mais sobre programação,
+                        desenvolvimento e as diversas possibilidades que o mundo
+                        da tecnologia oferece.
+                    </p>
+
+                    <p>
+                        Acredito que cada projeto é uma oportunidade de aprender
+                        algo novo, desenvolver minhas habilidades e transformar
+                        conhecimento em experiências práticas.
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <div class="info-item">
+                        <span>👤</span>
+                        <div>
+                            <small>Nome</small>
+                            <p>João Victor Ferrasso Ribeiro</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span>🎂</span>
+                        <div>
+                            <small>Idade</small>
+                            <p>16 anos</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span>🎓</span>
+                        <div>
+                            <small>Formação</small>
+                            <p>Estudante de TI - SENAI</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- OBJETIVOS -->
+        <section class="goals section" id="objetivos">
+
+            <div class="section-title">
+                <span>02.</span>
+                <h2>Meus objetivos</h2>
+            </div>
+
+            <div class="cards">
+
+                <div class="goal-card">
+
+                    <div class="icon">💻</div>
+
+                    <h3>Aprender programação</h3>
+
+                    <p>
+                        Desenvolver cada vez mais minhas habilidades em
+                        programação e conhecer novas tecnologias.
+                    </p>
+
+                </div>
+
+
+                <div class="goal-card">
+
+                    <div class="icon">🚀</div>
+
+                    <h3>Criar projetos</h3>
+
+                    <p>
+                        Transformar ideias em projetos reais para colocar
+                        meus conhecimentos em prática.
+                    </p>
+
+                </div>
+
+
+                <div class="goal-card">
+
+                    <div class="icon">🎯</div>
+
+                    <h3>Crescer na área</h3>
+
+                    <p>
+                        Construir minha experiência e continuar evoluindo
+                        profissionalmente dentro da área de tecnologia.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FRASE FINAL -->
+        <section class="final-section">
+
+            <div class="final-content">
+
+                <span class="small-title">EM CONSTANTE EVOLUÇÃO</span>
+
+                <h2>
+                    O futuro começa com aquilo
+                    que aprendemos hoje.
+                </h2>
+
+                <p>
+                    Estou apenas começando minha jornada na tecnologia.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-logo">&lt;JVFR/&gt;</div>
+
+        <p>
+            João Victor Ferrasso Ribeiro
+        </p>
+
+        <span>
+            Estudante de Tecnologia da Informação
+        </span>
+
+        <div class="copyright">
+            © 2026 João Victor Ferrasso Ribeiro
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
