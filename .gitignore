@@ -1,0 +1,11 @@
+# Sistema operacional
+Thumbs.db
+
+# Node
+node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+
+*.log
